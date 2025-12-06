@@ -1,0 +1,41 @@
+name: project_sync
+description: "Project Sync App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Your existing packages
+  file_picker: ^8.0.0
+  open_filex: ^4.4.0
+  url_launcher: ^6.3.0
+  palette_generator: ^0.3.3
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.4
+
+  # 🔥 Firebase
+  firebase_core: ^3.15.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.5.0
+  firebase_storage: ^12.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/samples/pitch.pdf
+
